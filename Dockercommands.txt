@@ -6,3 +6,4 @@ Docker kill imagename  //to kill the runnning container (we can attach more than
 Docker -rm imagename //to remove the image completely 
 Docker attach //to attach the process to container 
 Docker connect // to connect to another container or the host 
+Docker build imagename // build the image which is written through code
