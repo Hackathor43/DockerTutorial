@@ -1,0 +1,8 @@
+Docker run imagename    //to run the image in a container if the image is not there it will download it from Docker registry
+Docker pull imagename  //to download the image
+Docker push imagename  //push the image u have created to docker registry
+Docker commit imagename //to save the changes u have made in an image under the name u have given 
+Docker kill imagename  //to kill the runnning container (we can attach more than one process to container but if the process which started the container is exitted the conatiner will kill itself stopping all the process)
+Docker -rm imagename //to remove the image completely 
+Docker attach //to attach the process to container 
+Docker connect // to connect to another container or the host 
