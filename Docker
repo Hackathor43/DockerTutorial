@@ -1,0 +1,8 @@
+//code to create an image through code
+
+FROM busybox  //the image to start with 
+RUN echo "building using a small image"
+CMD echo "hello container"
+
+//after this 
+//docker build -t imagename will build this image and we can push it to docker registry
